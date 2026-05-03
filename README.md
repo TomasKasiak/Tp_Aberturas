@@ -15,4 +15,6 @@ Sitio web estático para una empresa de aberturas. Incluye páginas de inicio, p
 
 ## Instrucciones para visualizar el proyecto
 
+Ingresar a la siguiente dirección de GitHub Pages para ver el sitio publicado:
 
+https://tomaskasiak.github.io/Tp_Aberturas/

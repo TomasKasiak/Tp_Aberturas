@@ -82,8 +82,7 @@ nav a:hover { text-decoration: underline; }
     text-align: center;
     padding: 40px 10px;
     background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), 
-                url('../img/heroLogo.jpeg') center no-repeat;
-    background-attachment: fixed;
+                url('../img/heroLogo.jpeg') center/cover no-repeat;
     color: white;
 }
 
@@ -111,7 +110,7 @@ nav a:hover { text-decoration: underline; }
     margin: 0 auto;
     color: #f0f0f0;
 }
-
+/* --- NOSOTROS --- */
 .about-layout {
     display: flex;
     flex-direction: column;
@@ -361,7 +360,8 @@ footer {
         min-height: 40vh;
         padding: 20px 10px;
         background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), 
-                    url('../img/heroLogo.jpeg') center/cover fixed no-repeat;
+                    url('../img/HeroLogo2.jpeg') center/cover no-repeat;
+        background-attachment: scroll;
     }
 
     .hero h1 {

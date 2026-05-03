@@ -62,7 +62,8 @@ header {
     display: block;
 }
 
-.logo-text span { color: yellow; }
+
+.logo-text span { color: rgb(235, 15, 15); }
 
 nav a {
     color: white;

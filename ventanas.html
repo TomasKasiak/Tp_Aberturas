@@ -1,124 +1,127 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Aberturas Programacion 1 - Ventanas</title>
-    <link rel="icon" href="img/logoAberturas.png" type="image/png">
-    <link rel="stylesheet" href="css/style.css">
-
-</head>
-<body>
-
+    <link rel="icon" href="img/logoAberturas.png" type="image/png" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
     <header>
-        <a href="index.html" class="logo-text"><img src="img/logoAberturas.png" alt="Logo Aberturas">Aberturas <span>Programacion 1</span></a>
+      <a href="index.html" class="logo-text"
+        ><img src="img/logoAberturas.png" alt="Logo Aberturas" />Aberturas
+        <span>Programacion 1</span></a
+      >
 
-        <nav>
-            <a href="index.html">Inicio</a>
-            <a href="puertas.html">Puertas</a>
-            <a href="ventanas.html">Ventanas</a>
-            <a href="nosotros.html">Nosotros</a>
-        </nav>
+      <nav>
+        <a href="index.html">Inicio</a>
+        <a href="puertas.html">Puertas</a>
+        <a href="ventanas.html">Ventanas</a>
+        <a href="nosotros.html">Nosotros</a>
+      </nav>
+      <button id="tema-btn" onclick="cambiarModo()">🌙 Modo Noche</button>
     </header>
 
-
     <section class="page-title">
-        <h1>VENTANAS</h1>
-        <p> Aluminio Blanco Pintura Final, Aptas para Exterior e interior </p>
-        <p> Ventanas De Abrir, Corredizas, Fijas </p>
+      <h1>VENTANAS</h1>
+      <p>Aluminio Blanco Pintura Final, Aptas para Exterior e interior</p>
+      <p>Ventanas De Abrir, Corredizas, Fijas</p>
     </section>
 
     <section class="section">
-        <h2>Catalogo </h2>
+      <h2>Catalogo</h2>
 
-        <div class="grid">
-            <div class="card">
-                <img src="img/Ventiluz.jpeg" alt="Ventiluz ">
-                <h3>Ventiluz</h3>
-                <p>Linea Herrero Blanco</p>
-                <p> 60 x 40</p>
-                <div class="price">$25.000</div>
-                <a href="nosotros.html#contacto" class="btn">Consultar</a>
-            </div>
-
-             <div class="card">
-                <img src="img/VidrioEntero.jpeg" alt="Ventana corrediza">
-                <h3>Vidrio Entero </h3>
-                <p> Linea Herrero Blanco  </p>
-                <p> 150 x 110 </p>
-                <div class="price">$85.000</div>
-                <a href="nosotros.html#contacto" class="btn">Consultar</a>
-            </div>
-
-            <div class="card">
-                <img src="img/BalconVidrioRepartido.jpeg" alt="Ventana Balcon Vidrio Repartido">
-                <h3> Vidrio Repartido </h3>
-                <p> Linea Herrero Blanco </p>
-                <P> 150 x 200</P>
-                <div class="price">$250.000</div>
-                <a href="nosotros.html#contacto" class="btn">Consultar</a>
-            </div>
-
-            <br>
-
+      <div class="grid">
+        <div class="card">
+          <img src="img/Ventiluz.jpeg" alt="Ventiluz " />
+          <h3>Ventiluz</h3>
+          <p>Linea Herrero Blanco</p>
+          <p>60 x 40</p>
+          <div class="price">$25.000</div>
+          <a href="nosotros.html#contacto" class="btn">Consultar</a>
         </div>
-        <div class="grid">
-            <div class="card">
-                <img src="img/BalconVidrioHorizontal.jpeg" alt="Balcon Horizontal">
-                <h3> Vidrio Horizontal </h3>
-                <p>Linea Herrero Blanco</p>
-                <p>150 x 200</p>
-                <div class="price">$85.000</div>
-                <a href="nosotros.html#contacto" class="btn">Consultar</a>
-            </div>
 
-             <div class="card">
-                <img src="img/ventanaVidrioorizontal.jpeg" alt="Ventana Horizontal">
-                <h3>Vidrio Horizontal </h3>
-                <p> Linea Herrero Blanco  </p>
-                <p> 150 x 110 </p>
-                <div class="price">$120.000</div>
-                <a href="nosotros.html#contacto" class="btn">Consultar</a>
-            </div>
-
-            <div class="card">
-                <img src="img/Patagonica.jpg" alt="Patagonica">
-                <h3> Raja + Paño Fijo </h3>
-                <p> Linea Herrero Blanco </p>
-                <P> 150 x 150</P>
-                <div class="price">$180.000</div>
-                <a href="nosotros.html#contacto" class="btn">Consultar</a>
-            </div>
+        <div class="card">
+          <img src="img/VidrioEntero.jpeg" alt="Ventana corrediza" />
+          <h3>Vidrio Entero</h3>
+          <p>Linea Herrero Blanco</p>
+          <p>150 x 110</p>
+          <div class="price">$85.000</div>
+          <a href="nosotros.html#contacto" class="btn">Consultar</a>
         </div>
+
+        <div class="card">
+          <img
+            src="img/BalconVidrioRepartido.jpeg"
+            alt="Ventana Balcon Vidrio Repartido"
+          />
+          <h3>Vidrio Repartido</h3>
+          <p>Linea Herrero Blanco</p>
+          <p>150 x 200</p>
+          <div class="price">$250.000</div>
+          <a href="nosotros.html#contacto" class="btn">Consultar</a>
+        </div>
+
+        <br />
+      </div>
+      <div class="grid">
+        <div class="card">
+          <img src="img/BalconVidrioHorizontal.jpeg" alt="Balcon Horizontal" />
+          <h3>Vidrio Horizontal</h3>
+          <p>Linea Herrero Blanco</p>
+          <p>150 x 200</p>
+          <div class="price">$85.000</div>
+          <a href="nosotros.html#contacto" class="btn">Consultar</a>
+        </div>
+
+        <div class="card">
+          <img src="img/ventanaVidrioorizontal.jpeg" alt="Ventana Horizontal" />
+          <h3>Vidrio Horizontal</h3>
+          <p>Linea Herrero Blanco</p>
+          <p>150 x 110</p>
+          <div class="price">$120.000</div>
+          <a href="nosotros.html#contacto" class="btn">Consultar</a>
+        </div>
+
+        <div class="card">
+          <img src="img/Patagonica.jpg" alt="Patagonica" />
+          <h3>Raja + Paño Fijo</h3>
+          <p>Linea Herrero Blanco</p>
+          <p>150 x 150</p>
+          <div class="price">$180.000</div>
+          <a href="nosotros.html#contacto" class="btn">Consultar</a>
+        </div>
+      </div>
     </section>
 
-
     <footer>
-        <div class="footer-content">
-            <div class="footer-section">
-                <h3>Aberturas Programacion 1</h3>
-                <p>Trabajo Practico Integrador</p>
-            </div>
-            <div class="footer-section">
-                <h3>Enlaces</h3>
-                <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="puertas.html">Puertas</a></li>
-                    <li><a href="ventanas.html">Ventanas</a></li>
-                    <li><a href="nosotros.html">Nosotros</a></li>
-                </ul>
-            </div>
-            <div class="footer-section">
-                <h3>Contacto</h3>
-                <p>Email: contacto@aberturasprogramacion1.com</p>
-                <p>Tel: 11 1234-5678</p>
-            </div>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Aberturas Programacion 1</h3>
+          <p>Trabajo Practico Integrador</p>
         </div>
-        <div class="footer-bottom">
-            <p>&copy; 2026 Aberturas Programacion 1. Todos los derechos reservados.</p>
+        <div class="footer-section">
+          <h3>Enlaces</h3>
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="puertas.html">Puertas</a></li>
+            <li><a href="ventanas.html">Ventanas</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+          </ul>
         </div>
+        <div class="footer-section">
+          <h3>Contacto</h3>
+          <p>Email: contacto@aberturasprogramacion1.com</p>
+          <p>Tel: 11 1234-5678</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>
+          &copy; 2026 Aberturas Programacion 1. Todos los derechos reservados.
+        </p>
+      </div>
     </footer>
-
-</body>
+    <script src="js/script.js"></script>
+  </body>
 </html>
-

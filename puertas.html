@@ -1,123 +1,125 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Aberturas Programacion 1 - Puertas</title>
-    <link rel="icon" href="img/logoAberturas.png" type="image/png">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-
+    <link rel="icon" href="img/logoAberturas.png" type="image/png" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
     <header>
-        <a href="index.html" class="logo-text"><img src="img/logoAberturas.png" alt="Logo Aberturas">Aberturas <span>Programacion 1</span></a>
+      <a href="index.html" class="logo-text"
+        ><img src="img/logoAberturas.png" alt="Logo Aberturas" />Aberturas
+        <span>Programacion 1</span></a
+      >
 
-        <nav>
-            <a href="index.html">Inicio</a>
-            <a href="puertas.html">Puertas</a>
-            <a href="ventanas.html">Ventanas</a>
-            <a href="nosotros.html">Nosotros</a>
-        </nav>
+      <nav>
+        <a href="index.html">Inicio</a>
+        <a href="puertas.html">Puertas</a>
+        <a href="ventanas.html">Ventanas</a>
+        <a href="nosotros.html">Nosotros</a>
+      </nav>
+      <button id="tema-btn" onclick="cambiarModo()">🌙 Modo Noche</button>
     </header>
 
-
     <section class="page-title">
-        <h1>PUERTAS </h1>
-        <p>Chapa simple, Doble chapa, Aluminio , Pino</p>
-        <p> Puertas para Exterior e Interior</p>
+      <h1>PUERTAS</h1>
+      <p>Chapa simple, Doble chapa, Aluminio , Pino</p>
+      <p>Puertas para Exterior e Interior</p>
     </section>
 
     <section class="section">
-        <h2>Catalogo</h2>
+      <h2>Catalogo</h2>
 
-        <div class="grid">
-            <div class="card">
-                <img src="img/PuertaAluminioConRaja.jpeg" alt="Puerta de Aluminio">
-                <h3>Puerta De Aluminio </h3>
-                <p> Aluminio 36mm Con Raja de Abrir </p>
-                <p>80 x 200 </p>
-                <div class="price">$230.000</div>
-                <a href="nosotros.html#contacto" class="btn">Consultar</a>
-            </div>
-
-            <div class="card">
-                <img src="img/puerta mdf.jpeg" alt="Puerta Placa mdf">
-                <h3>Puerta Placa MDF</h3>
-                <p> Marco de chapa, hoja de Pino Blanco</p>
-                <p>70 x 200</p>
-                <div class="price">$95.000</div>
-                <a href="nosotros.html#contacto" class="btn">Consultar</a>
-            </div>
-
-            <div class="card">
-                <img src="img/puerta3.webp" alt="Puerta reforzada">
-                <h3>Puerta Chapa </h3>
-                <p>Doble Chapa Inyectada con poliuretano</p>
-                <p>80 x 200</p>
-                <div class="price">$195.000</div>
-                <a href="nosotros.html#contacto" class="btn">Consultar</a>
-            </div>
+      <div class="grid">
+        <div class="card">
+          <img src="img/PuertaAluminioConRaja.jpeg" alt="Puerta de Aluminio" />
+          <h3>Puerta De Aluminio</h3>
+          <p>Aluminio 36mm Con Raja de Abrir</p>
+          <p>80 x 200</p>
+          <div class="price">$230.000</div>
+          <a href="nosotros.html#contacto" class="btn">Consultar</a>
         </div>
-        
-        <br>
 
-        <div class="grid">
-            <div class="card">
-                <img src="img/PuertaPino.jpeg" alt="Puerta Placa">
-                <h3>Puerta Placa PINO </h3>
-                <p> Marco Chapa, Hoja de Pino Natural </p>
-                <p>70 x 200 </p>
-                <div class="price">$75.000</div>
-                <a href="nosotros.html#contacto" class="btn">Consultar</a>
-            </div>
-
-            <div class="card">
-                <img src="img/PuertaChapaPavir.jpeg" alt="Puerta Chapa doble">
-                <h3>Puerta  Chapa</h3>
-                <p>Doble Chapa Inyectada con poliuretano</p>
-                <p>80 x 200</p>
-                <div class="price">$225.000</div>
-                <a href="nosotros.html#contacto" class="btn">Consultar</a>
-            </div>
-
-            <div class="card">
-                <img src="img/porton aluminio.jpeg" alt="Porton ">
-                <h3>Porton De Aluminio  </h3>
-                <p>Linea Herrero 36mm, 3 Hojas </p>
-                <p>240 x 200</p>
-                <div class="price">$500.000</div>
-                <a href="nosotros.html#contacto" class="btn">Consultar</a>
-            </div>
+        <div class="card">
+          <img src="img/puerta mdf.jpeg" alt="Puerta Placa mdf" />
+          <h3>Puerta Placa MDF</h3>
+          <p>Marco de chapa, hoja de Pino Blanco</p>
+          <p>70 x 200</p>
+          <div class="price">$95.000</div>
+          <a href="nosotros.html#contacto" class="btn">Consultar</a>
         </div>
-        
+
+        <div class="card">
+          <img src="img/puerta3.webp" alt="Puerta reforzada" />
+          <h3>Puerta Chapa</h3>
+          <p>Doble Chapa Inyectada con poliuretano</p>
+          <p>80 x 200</p>
+          <div class="price">$195.000</div>
+          <a href="nosotros.html#contacto" class="btn">Consultar</a>
+        </div>
+      </div>
+
+      <br />
+
+      <div class="grid">
+        <div class="card">
+          <img src="img/PuertaPino.jpeg" alt="Puerta Placa" />
+          <h3>Puerta Placa PINO</h3>
+          <p>Marco Chapa, Hoja de Pino Natural</p>
+          <p>70 x 200</p>
+          <div class="price">$75.000</div>
+          <a href="nosotros.html#contacto" class="btn">Consultar</a>
+        </div>
+
+        <div class="card">
+          <img src="img/PuertaChapaPavir.jpeg" alt="Puerta Chapa doble" />
+          <h3>Puerta Chapa</h3>
+          <p>Doble Chapa Inyectada con poliuretano</p>
+          <p>80 x 200</p>
+          <div class="price">$225.000</div>
+          <a href="nosotros.html#contacto" class="btn">Consultar</a>
+        </div>
+
+        <div class="card">
+          <img src="img/porton aluminio.jpeg" alt="Porton " />
+          <h3>Porton De Aluminio</h3>
+          <p>Linea Herrero 36mm, 3 Hojas</p>
+          <p>240 x 200</p>
+          <div class="price">$500.000</div>
+          <a href="nosotros.html#contacto" class="btn">Consultar</a>
+        </div>
+      </div>
     </section>
 
-
     <footer>
-        <div class="footer-content">
-            <div class="footer-section">
-                <h3>Aberturas Programacion 1</h3>
-                <p>Trabajo Practico Integrador</p>
-            </div>
-            <div class="footer-section">
-                <h3>Enlaces</h3>
-                <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="puertas.html">Puertas</a></li>
-                    <li><a href="ventanas.html">Ventanas</a></li>
-                    <li><a href="nosotros.html">Nosotros</a></li>
-                </ul>
-            </div>
-            <div class="footer-section">
-                <h3>Contacto</h3>
-                <p>Email: contacto@aberturasprogramacion1.com</p>
-                <p>Tel: 11 1234-5678</p>
-            </div>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Aberturas Programacion 1</h3>
+          <p>Trabajo Practico Integrador</p>
         </div>
-        <div class="footer-bottom">
-            <p>&copy; 2026 Aberturas Programacion 1. Todos los derechos reservados.</p>
+        <div class="footer-section">
+          <h3>Enlaces</h3>
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="puertas.html">Puertas</a></li>
+            <li><a href="ventanas.html">Ventanas</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+          </ul>
         </div>
+        <div class="footer-section">
+          <h3>Contacto</h3>
+          <p>Email: contacto@aberturasprogramacion1.com</p>
+          <p>Tel: 11 1234-5678</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>
+          &copy; 2026 Aberturas Programacion 1. Todos los derechos reservados.
+        </p>
+      </div>
     </footer>
-
-</body>
+    <script src="js/script.js"></script>
+  </body>
 </html>

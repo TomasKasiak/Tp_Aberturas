@@ -1,147 +1,153 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Aberturas Programacion 1 - Inicio</title>
-    <link rel="icon" href="img/logoAberturas.png" type="image/png">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-
+    <link rel="icon" href="img/logoAberturas.png" type="image/png" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
     <header>
-        <a href="index.html" class="logo-text"><img src="img/logoAberturas.png" alt="Logo Aberturas">Aberturas <span>Programacion 1</span></a>
+      <a href="index.html" class="logo-text"
+        ><img src="img/logoAberturas.png" alt="Logo Aberturas" />Aberturas
+        <span>Programacion 1</span></a
+      >
 
-        <nav>
-            <a href="index.html">Inicio</a>
-            <a href="puertas.html">Puertas</a>
-            <a href="ventanas.html">Ventanas</a>
-            <a href="nosotros.html">Nosotros</a>
-        </nav>
+      <nav>
+        <a href="index.html">Inicio</a>
+        <a href="puertas.html">Puertas</a>
+        <a href="ventanas.html">Ventanas</a>
+        <a href="nosotros.html">Nosotros</a>
+      </nav>
+      <button id="tema-btn" onclick="cambiarModo()">🌙 Modo Noche</button>
     </header>
 
-
     <section class="hero">
-        <div class="hero-content">
-           <!-- <h1>Aberturas a medida para tu hogar o comercio</h1>
+      <div class="hero-content">
+        <!-- <h1>Aberturas a medida para tu hogar o comercio</h1>
             <p>Vendemos puertas y ventanas con fabricacion estandar o personalizada.</p>
             <p>Brindamos asesoramiento, calidad y presupuestos rapidos.</p>
             <a href="puertas.html" class="btn">Ver productos</a>-->
-        </div>
+      </div>
     </section>
 
     <section class="section">
-        <h2>NUESTROS PRODUCTOS</h2>
+      <h2>NUESTROS PRODUCTOS</h2>
 
-        <div class="categories">
-            <div class="category">
-                <h3>PUERTAS</h3>
-                <p>  Exterior e Interior  (Placa, Chapa, Aluminio) </p>
-                <a href="puertas.html" class="btn">Ver puertas</a>
-            </div>
-
-            <div class="category">
-                <h3>VENTANAS</h3>
-                <p> Medidas Personalizadas (Corredizas,Abrir,Fijas) </p>
-                <a href="ventanas.html" class="btn">Ver ventanas</a>
-            </div>
+      <div class="categories">
+        <div class="category">
+          <h3>PUERTAS</h3>
+          <p>Exterior e Interior (Placa, Chapa, Aluminio)</p>
+          <a href="puertas.html" class="btn">Ver puertas</a>
         </div>
+
+        <div class="category">
+          <h3>VENTANAS</h3>
+          <p>Medidas Personalizadas (Corredizas,Abrir,Fijas)</p>
+          <a href="ventanas.html" class="btn">Ver ventanas</a>
+        </div>
+      </div>
     </section>
 
     <section class="section">
-        <h2>Productos destacados</h2>
+      <h2>Productos destacados</h2>
 
-        <div class="grid">
-            <div class="card">
-                <img src="img/PuertaAluminioConRaja.jpeg" alt="Puerta de Aluminio">
-                <h3>Puerta De Aluminio </h3>
-                <p> Aluminio 36mm Con Raja de Abrir </p>
-                <p>80 x 200 </p>
-                <div class="price">$230.000</div>
-                <a href="puertas.html" class="btn">Ver mas</a>
-            </div>
-
-            <div class="card">
-                <img src="img/VidrioEntero.jpeg" alt="Ventana corrediza">
-                <h3>Vidrio Entero </h3>
-                <p> Linea Herrero Blanco  </p>
-                <p> 150 x 110 </p>
-                <div class="price">$85.000</div>
-                <a href="ventanas.html" class="btn">Ver mas</a>
-            </div>
-
-            <div class="card">
-                <img src="img/BalconVidrioRepartido.jpeg" alt="Ventana Balcon Vidrio Repartido">
-                <h3> Vidrio Repartido </h3>
-                <p> Linea Herrero Blanco </p>
-                <P> 150 x 200</P>
-                <div class="price">$250.000</div>
-                <a href="ventanas.html" class="btn">Ver mas</a>
-            </div>
+      <div class="grid">
+        <div class="card">
+          <img src="img/PuertaAluminioConRaja.jpeg" alt="Puerta de Aluminio" />
+          <h3>Puerta De Aluminio</h3>
+          <p>Aluminio 36mm Con Raja de Abrir</p>
+          <p>80 x 200</p>
+          <div class="price">$230.000</div>
+          <a href="puertas.html" class="btn">Ver mas</a>
         </div>
+
+        <div class="card">
+          <img src="img/VidrioEntero.jpeg" alt="Ventana corrediza" />
+          <h3>Vidrio Entero</h3>
+          <p>Linea Herrero Blanco</p>
+          <p>150 x 110</p>
+          <div class="price">$85.000</div>
+          <a href="ventanas.html" class="btn">Ver mas</a>
+        </div>
+
+        <div class="card">
+          <img
+            src="img/BalconVidrioRepartido.jpeg"
+            alt="Ventana Balcon Vidrio Repartido"
+          />
+          <h3>Vidrio Repartido</h3>
+          <p>Linea Herrero Blanco</p>
+          <p>150 x 200</p>
+          <div class="price">$250.000</div>
+          <a href="ventanas.html" class="btn">Ver mas</a>
+        </div>
+      </div>
     </section>
 
     <section class="section">
-        <h2>Comparativa de precios</h2>
-        <table class="price-table">
-            <thead>
-                <tr>
-                    <th>Producto</th>
-                    <th>Precio</th>
-                    <th>Características</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Puerta de aluminio exterior</td>
-                    <td>$135.000</td>
-                    <td>Resistente, moderna, ideal para exteriores</td>
-                </tr>
-                <tr>
-                    <td>Ventana corrediza de aluminio</td>
-                    <td>$85.000</td>
-                    <td>Práctica, para dormitorios y oficinas</td>
-                </tr>
-                <tr>
-                    <td>Ventana balcón</td>
-                    <td>$180.000</td>
-                    <td>Abertura amplia, hojas corredizas</td>
-                </tr>
-                <tr>
-                    <td>Puerta placa interior</td>
-                    <td>$76.000</td>
-                    <td>Clásica, para ambientes internos</td>
-                </tr>
-            </tbody>
-        </table>
+      <h2>Comparativa de precios</h2>
+      <table class="price-table">
+        <thead>
+          <tr>
+            <th>Producto</th>
+            <th>Precio</th>
+            <th>Características</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Puerta de aluminio exterior</td>
+            <td>$135.000</td>
+            <td>Resistente, moderna, ideal para exteriores</td>
+          </tr>
+          <tr>
+            <td>Ventana corrediza de aluminio</td>
+            <td>$85.000</td>
+            <td>Práctica, para dormitorios y oficinas</td>
+          </tr>
+          <tr>
+            <td>Ventana balcón</td>
+            <td>$180.000</td>
+            <td>Abertura amplia, hojas corredizas</td>
+          </tr>
+          <tr>
+            <td>Puerta placa interior</td>
+            <td>$76.000</td>
+            <td>Clásica, para ambientes internos</td>
+          </tr>
+        </tbody>
+      </table>
     </section>
 
     <footer>
-        <div class="footer-content">
-            <div class="footer-section">
-                <h3>Aberturas Programacion 1</h3>
-                <p>Trabajo Practico Integrador</p>
-            </div>
-            <div class="footer-section">
-                <h3>Enlaces</h3>
-                <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="puertas.html">Puertas</a></li>
-                    <li><a href="ventanas.html">Ventanas</a></li>
-                    <li><a href="nosotros.html">Nosotros</a></li>
-                </ul>
-            </div>
-            <div class="footer-section">
-                <h3>Contacto</h3>
-                <p>Email: contacto@aberturasprogramacion1.com</p>
-                <p>Tel: 11 1234-5678</p>
-            </div>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Aberturas Programacion 1</h3>
+          <p>Trabajo Practico Integrador</p>
         </div>
-        <div class="footer-bottom">
-            <p>&copy; 2026 Aberturas Programacion 1. Todos los derechos reservados.</p>
+        <div class="footer-section">
+          <h3>Enlaces</h3>
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="puertas.html">Puertas</a></li>
+            <li><a href="ventanas.html">Ventanas</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+          </ul>
         </div>
+        <div class="footer-section">
+          <h3>Contacto</h3>
+          <p>Email: contacto@aberturasprogramacion1.com</p>
+          <p>Tel: 11 1234-5678</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>
+          &copy; 2026 Aberturas Programacion 1. Todos los derechos reservados.
+        </p>
+      </div>
     </footer>
-
-</body>
+    <script src="js/script.js"></script>
+  </body>
 </html>
-

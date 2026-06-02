@@ -8,11 +8,11 @@ Sitio web estático para una empresa de aberturas. Incluye páginas de inicio, p
 
 - Tomas - Arquitectura HTML y Maquetado
 - Morena Niz - Arquitectura HTML
-- Germán Alejandro Sanchez - Diseño Visual y Estilizado CSS 
+- Germán Alejandro Sanchez - Diseño Visual y Estilizado CSS
 - Nahir Gonzales - Diseño UI
-
-
+- Natalia Fernanda Hiporre - Implementación de JavaScript y funcionalidad de Modo Día / Modo Noche
 
 ## Instrucciones para visualizar el proyecto
+
 Para ver el proyecto en funcionamiento, podés acceder a través del siguiente enlace:
 https://tomaskasiak.github.io/Tp_Aberturas/

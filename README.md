@@ -6,10 +6,10 @@ Sitio web estático para una empresa de aberturas. Incluye páginas de inicio, p
 
 ## Integrantes del grupo
 
-- Tomas - Arquitectura HTML y Maquetado
+- Tomás Kasiak- Arquitectura HTML, Maquetado e implementación de JavaScript para el carrito de compras
 - Morena Niz - Arquitectura HTML
 - Germán Alejandro Sanchez - Diseño Visual y Estilizado CSS
-- Nahir Gonzales - Diseño UI
+- Nahir Gonzalez - Diseño UI e implementación de JavaScript para el carrito de compras
 - Natalia Fernanda Hiporre - Implementación de JavaScript y funcionalidad de Modo Día / Modo Noche
 
 ## Instrucciones para visualizar el proyecto

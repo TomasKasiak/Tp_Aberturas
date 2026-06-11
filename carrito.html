@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Aberturas Programacion 1 - Nosotros</title>
+    <title>Aberturas Programacion 1 - Carrito</title>
     <link rel="icon" href="img/logoAberturas.png" type="image/png" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
@@ -25,55 +25,44 @@
     </header>
 
     <section class="page-title">
-      <h1>Nosotros</h1>
+      <h1>Carrito de compras</h1>
+      <p>Productos seleccionados para solicitar presupuesto</p>
     </section>
 
-    <section class="section about-layout">
-      <div class="info-box about-with-image">
-        <div class="about-image">
-          <img src="img/HeroLogo2.jpeg" alt="Imagen de la empresa" />
-        </div>
-        <div class="about-text">
-          <h2>Quienes somos</h2>
-          <p>
-            Somos una empresa dedicada a la venta de aberturas para hogares,
-            comercios y obras en construccion.
-          </p>
-          <p>
-            Trabajamos con puertas y ventanas de distintos modelos, buscando
-            ofrecer productos resistentes, funcionales y adaptados a cada
-            necesidad.
-          </p>
-          <p>
-            Nuestro objetivo es brindar una buena atencion, asesoramiento
-            personalizado y presupuestos claros para que cada cliente pueda
-            elegir la abertura adecuada para su proyecto.
-          </p>
-        </div>
-      </div>
+    <section class="section carrito-section">
+      <h2>Detalle del carrito</h2>
 
-      <div class="info-box">
-        <div class="contenedor-form">
-          <form class="form">
-            <div class="form_div">
-              <h2 class="form_titulo" id="contacto">Contacto</h2>
-              <input type="text" class="form_input" placeholder="Nombre:" />
-              <input type="email" class="form_input" placeholder="Email:" />
-              <textarea class="form_input" placeholder="Consulta:"></textarea>
+      <div id="carrito-listado" class="carrito-listado"></div>
 
-              <button type="submit" class="btn">Enviar</button>
-            </div>
-          </form>
+      <div class="carrito-resumen">
+        <div class="carrito-descuentos">
+          <h3>Descuentos disponibles</h3>
+          <p>Selecciona las opciones que correspondan. Los descuentos se aplican en tiempo real y son acumulativos.</p>
+
+          <div class="descuento-opciones">
+            <label class="descuento-opcion" for="descuento-jubilado">
+              <input type="checkbox" id="descuento-jubilado" />
+              <span>10% de descuento para jubilados</span>
+            </label>
+
+            <label class="descuento-opcion" for="descuento-efectivo">
+              <input type="checkbox" id="descuento-efectivo" />
+              <span>10% de descuento abonando en efectivo</span>
+            </label>
+          </div>
         </div>
 
-        <p><strong>Email:</strong> contacto@aberturasprogramacion1.com</p>
-        <p><strong>Telefono:</strong> 11 1234-5678</p>
-        <p><strong>WhatsApp:</strong> 11 9876-5432</p>
+        <div class="carrito-totales">
+          <p>Subtotal: <span id="carrito-subtotal">$0</span></p>
+          <p>Descuento jubilados 10%: <span id="carrito-descuento-jubilado">-$0</span></p>
+          <p>Descuento efectivo 10%: <span id="carrito-descuento-efectivo">-$0</span></p>
+          <p>Total de descuentos: <span id="carrito-descuentos-total">-$0</span></p>
+          <h3>Total final: <span id="carrito-total">$0</span></h3>
+        </div>
 
-        <h2>Redes sociales</h2>
-        <div class="social-links">
-          <a href="https://www.instagram.com/" target="_blank">Instagram</a>
-          <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+        <div class="carrito-acciones">
+          <button class="btn" type="button" onclick="vaciarCarrito()">Vaciar carrito</button>
+          <a href="nosotros.html#contacto" class="btn">Consultar presupuesto</a>
         </div>
       </div>
     </section>
